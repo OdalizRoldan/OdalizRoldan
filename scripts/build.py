@@ -105,8 +105,8 @@ def hero(t):
              '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>')
     b.append(text(34, 112, "Odaliz", 46, t["text"], 800))
     b.append(text(34, 162, "Rojas Roldán", 46, t["text"], 800))
-    b.append(segs(36, 204, [("I ground LLM agents in ", t["soft"]), ("knowledge graphs,", t["research"])], 16))
-    b.append(text(36, 228, "so they stop inventing what isn't there.", 16, t["soft"]))
+    b.append(segs(36, 206, [('"', t["soft"]), ("Building", t["research"]), (' is my love language"', t["soft"])], 17))
+    b.append(text(36, 230, "— Zuck's T-shirt", 13, t["muted"]))
     p, _ = pills(36, 252, ["AI Engineer · ICI-UPB", "Leader · AWS UG AI Bolivia", "Cochabamba, BO"], t, 11)
     b.append(p)
     # decorative graph
@@ -124,7 +124,7 @@ def hero(t):
          text(70, 50, ":Research", 10, t["research"]), text(150, 230, ":Product", 10, t["product"]),
          text(144, 278, ":Concept", 10, t["concept"])]
     b.append(f'<g transform="translate({ox},{oy})">' + "".join(g) + "</g>")
-    return svg(W, 300, "".join(b), "Odaliz Rojas Roldán. I ground LLM agents in knowledge graphs, so they stop inventing what isn't there.",
+    return svg(W, 300, "".join(b), "Odaliz Rojas Roldán. \"Building is my love language\" — Zuck's T-shirt.",
                (400, 800))
 
 
@@ -421,7 +421,7 @@ def pic(stem, alt, width="100%", href=None):
 
 def build_readme():
     P = []
-    P.append(pic("hero", "Odaliz Rojas Roldán. I ground LLM agents in knowledge graphs, so they stop inventing what isn't there."))
+    P.append(pic("hero", "Odaliz Rojas Roldán. \"Building is my love language\" — Zuck's T-shirt."))
     P.append(pic("h-about", "(:About)"))
     P.append(pic("about", "Knowledge graphs × LLM agents × distributed systems. AI Engineer at ICI-UPB; thesis on multi-agent root-cause analysis "
                           "with topological memory (in development); I lead the AWS User Group AI Bolivia; I ship software for real businesses."))
