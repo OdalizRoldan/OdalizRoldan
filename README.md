@@ -62,22 +62,10 @@
 </p>
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-now-dark.svg"><img src="./assets/h-now-light.svg" alt="git log --since=&quot;this month&quot;" width="100%"></picture>
-</p>
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg"><img src="./assets/now-light.svg" alt="Now: thesis reviewer feedback, Rivt launch, Clase360 AI, AWS User Group AI Bolivia talks." width="100%"></picture>
-</p>
-
-<p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/h-contact-dark.svg"><img src="./assets/h-contact-light.svg" alt="CREATE (you)-[:TALKS_TO]-&gt;(me)" width="100%"></picture>
 </p>
 
 <p>
 <a href="mailto:odaliz.rojas.roldan4417@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg"><img src="./assets/btn-email-light.svg" alt="Email: odaliz.rojas.roldan4417@gmail.com"></picture></a>
 <a href="https://www.linkedin.com/in/odaliz-rojas/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg"><img src="./assets/btn-linkedin-light.svg" alt="LinkedIn"></picture></a>
-</p>
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg"><img src="./assets/footer-light.svg" alt="Off the keyboard: CrossFit competitions and volunteering at an animal shelter." width="100%"></picture>
 </p>
